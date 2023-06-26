@@ -1,21 +1,21 @@
 {
-  "name": "mimino-team-project",
+  "name": "NGL-site",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://sandra-selezen.github.io/mimino-team-project",
+  "homepage": "https://IlchukV.github.io/NGL-site",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /mimino-team-project/"
+    "build": "parcel build src/*.html --public-url /NGL-site/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sandra-selezen/mimino-team-project.git"
+    "url": "git+https://github.com/IlchukV/NGL-site.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Vad Man <vadmany@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sandra-selezen/mimino-team-project/issues"
+    "url": "https://github.com/IlchukV/NGL-site/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
