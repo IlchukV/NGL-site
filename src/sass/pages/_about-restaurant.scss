@@ -3,11 +3,11 @@
   padding-top: 16px;
   padding-bottom: 72px;
   @include tablet {
-    padding-top: 120px;
+    // padding-top: 120px;
     padding-bottom: 262px;
   }
   @include desktop {
-    padding-bottom: 225px;
+    padding-bottom: 15px;
   }
 }
 
@@ -29,7 +29,7 @@
 
 .about-restaurant__logo {
   // шрифт
-  font-family: 'Film P3', sans-serif;
+  font-family: 'Times New Roman', serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 1.08;
@@ -96,7 +96,7 @@
   margin-bottom: 28px;
 
   @include tablet {
-    max-width: 439px;
+    max-width: 539px;
     margin-bottom: 0;
   }
 }
@@ -139,6 +139,9 @@
   @include tablet {
     max-width: 312px;
   }
+    @include desktop {
+      max-width: 412px;
+    }
 }
 
 .info-card:nth-child(n + 2) {
@@ -157,7 +160,7 @@
     margin-left: 48px;
   }
   @include desktop {
-    margin-left: 32px;
+    margin-left: 92px;
   }
 }
 

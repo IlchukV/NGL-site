@@ -27,13 +27,16 @@
   transition: background-color $duration $timingFunction;
   &:hover,
   &:focus {
-    background-color: $mainLightColor;
+    background-color: $accentColor;
+    color: $mainDarkColor;
+    border-color: $accentColor;
   }
 }
 
 .button-secondary {
   @extend .button-primary;
   background-color: $mainDarkColor;
+  
 }
 
 .button-tertiary {

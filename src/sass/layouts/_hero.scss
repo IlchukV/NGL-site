@@ -1,6 +1,6 @@
 .hero {
     background-image: linear-gradient(to bottom, $heroBgColor, $heroBgColor), 
-    url(../images/home/mobile/hmpg-1-mb.jpg);
+    url(../images/home/mobile/03.jpg);
     background-color: $heroBgColor;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,28 +8,28 @@
     margin-right: auto;
     margin-left: auto;
 
-    padding-bottom: 20px;
-    height: 740px;
+    padding-bottom: 40px;
+    height: 570px;
     @include retina {
     background-image: linear-gradient(to bottom, $heroBgColor, $heroBgColor), 
-    url(../images/home/mobile/hmpg-1-mb@2x.jpg); }
+    url(../images/home/mobile/03.jpg); }
     @include tablet {
     height: 720px;
     background-image: linear-gradient(to bottom, $heroBgColor, $heroBgColor),
-    url(../images/home/tablet/hmpg-1-tb.jpg);
+    url(../images/home/tablet/03.jpg);
     
     @include retina {
     background-image: linear-gradient(to bottom, $heroBgColor, $heroBgColor),
-    url(../images/home/tablet/hmpg-1-tb@2x.jpg);
+    url(../images/home/tablet/03.jpg);
     }  
 }
     @include desktop {
     background-image: linear-gradient(to bottom, $heroBgColor, $heroBgColor),
-    url(../images/home/desktop/hmpg-1-ds.jpg);
+    url(../images/home/desktop/03.jpg);
 
     @include retina {
         background-image: linear-gradient(to bottom, $heroBgColor, $heroBgColor),
-        url(../images/home/desktop/hmpg-1-ds@2x.jpg);
+        url(../images/home/desktop/03.jpg);
     }
     max-width: 1920px;
     }
@@ -81,31 +81,39 @@
 }
 
 .hero__title {
-    font-family: 'Film P3';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 96px;
+    font-size: 31px;
+
     line-height: 1.07;
     letter-spacing: 0.3em;
     text-transform: uppercase;
+    text-align: center;
 
     color: $mainLightColor;
-    padding-top: 181px;
-    max-width: 303px;
+    padding-top: 100px;
+    max-width: 300;
     margin: 0 auto;
     
     @include tablet {
-        padding-top: 188px;
+        padding-top: 108px;
         margin-bottom: 16px;
+        max-width: 600;
+        font-size: 40px;
     }
     @include desktop {
-        padding-top: 164px;
+        // text-align: left;
+        font-size: 67px;
+        padding-top: 124px;
         margin-bottom: 32px;
-    }
+        max-width: 1200;
+        
+           }
 }
 
 .hero__pretitle {
-    text-align: center;
-    font-size: 16px;
+    // text-align: left;
+    font-size: 20px;
     font-weight: 600;
     line-height: 1.25;
     letter-spacing: 0.02em;
@@ -115,9 +123,12 @@
     margin-bottom: 40px;
     @include tablet {
     margin-bottom: 56px;
+    font-size: 26px;
     }
     @include desktop {
     margin-bottom: 56px;
+    font-size: 46px;
+    text-align: left;
     }
 }
 

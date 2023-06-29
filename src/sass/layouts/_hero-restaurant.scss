@@ -1,6 +1,6 @@
 .hero__restaurant {
     background-image: linear-gradient(to bottom, $heroBgColor, $heroBgColor), 
-    url(../images/restaurant/mobile/rstpg-1-mb.jpg);
+    url(../images/home/desktop/03.jpg);
     background-color: $heroBgColor;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,26 +12,26 @@
 
     @include retina {
         background-image: linear-gradient(to bottom, $heroBgColor, $heroBgColor), 
-        url(../images/restaurant/mobile/rstpg-1-mb2x.jpg); 
+        url(../images/home/desktop/03.jpg); 
     }
     @include tablet {
         height: 720px;
         background-image: linear-gradient(to bottom, $heroBgColor, $heroBgColor),
-        url(../images/restaurant/tablet/rstpg-1-tb.jpg);
+        url(../images/home/desktop/03.jpg);
         
         @include retina {
             background-image: linear-gradient(to bottom, $heroBgColor, $heroBgColor),
-            url(../images/restaurant/tablet/rstpg-1-tb2x.jpg);
+            url(../images/home/desktop/03.jpg);
         }  
     }
 
 @include desktop {
     background-image: linear-gradient(to bottom, $heroBgColor, $heroBgColor),
-    url(../images/restaurant/desktop/rstpg-1-ds.jpg);
+    url(../images/home/desktop/03.jpg);
 
     @include retina { 
         background-image: linear-gradient(to bottom, $heroBgColor, $heroBgColor),
-        url(../images/restaurant/desktop/rstpg-1-ds2x.jpg);
+        url(../images/home/desktop/03.jpg);
     }
     max-width: 1920px;
     }

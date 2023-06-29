@@ -1,6 +1,6 @@
 .hero__hotel {
     background-image: linear-gradient(to bottom, $heroBgColor, $heroBgColor), 
-    url(../images/hotel/mobile/htpg-1-mb.jpg);
+    url(../images/home/mobile/03.jpg);
     background-color: $heroBgColor;
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,27 +11,27 @@
     height: 740px;
     @include retina {
         background-image: linear-gradient(to bottom, $heroBgColor, $heroBgColor), 
-        url(../images/hotel/mobile/htpg-1-mb2x.jpg);
+        url(../images/home/mobile/03.jpg);
     }
 
     @include tablet {
         height: 720px;
         background-image: linear-gradient(to bottom, $heroBgColor, $heroBgColor),
-        url(../images/hotel/tablet/htpg-1-tb.jpg);
+        url(../images/home/mobile/03.jpg);
         
         @include retina {
             background-image: linear-gradient(to bottom, $heroBgColor, $heroBgColor),
-            url(../images/hotel/tablet/htpg-1-tb2x.jpg);
+            url(../images/home/mobile/03.jpg);
         }  
     }
     
     @include desktop {
         background-image: linear-gradient(to bottom, $heroBgColor, $heroBgColor),
-        url(../images/hotel/desktop/htpg-1-ds.jpg);
+        url(../images/home/mobile/03.jpg);
 
         @include retina { 
             background-image: linear-gradient(to bottom, $heroBgColor, $heroBgColor),
-            url(../images/hotel/desktop/htpg-1-ds2x.jpg);
+            url(../images/home/mobile/03.jpg);
         }
         max-width: 1920px;
     }
