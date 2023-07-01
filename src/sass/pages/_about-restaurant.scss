@@ -16,7 +16,7 @@
   font-family: 'Times New Roman', serif;
   font-size: 20px;
   line-height: 1.15;
-  color: $pretitleColor;
+  color: $mainDarkColor;
 
   margin-bottom: 12px;
 
@@ -35,7 +35,7 @@
   line-height: 1.08;
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  color: $secondaryTitleColor;
+  color: $secondaryAccentColor;
 
   margin-bottom: 12px;
 
@@ -44,7 +44,7 @@
     margin-bottom: 24px;
   }
   @include desktop {
-    color: $primaryTitleColor;
+    color: $secondaryAccentColor;
   }
 }
 
