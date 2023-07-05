@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NGL Consulting</title>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/home/desktop/fav180.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/home/desktop/fav32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/home/desktop/fav16.png">
 
     <!-- SLICK -->
     <link
@@ -25,6 +25,12 @@
     <link rel="stylesheet" href="./sass/main.scss" />
   </head>
   <body>
+    <div id="page-preloader" class="preloader">
+      <div class="loader">
+        <h1 class="hero__loader">Nova Generation Logistics</h1>
+        <h2 class="hero__preloader">Делаем то, что должно быть сделано!</h2>
+      </div>
+    </div>
     <!-- ❗️❗️❗️ Add partials like so for every page -->
     <include src="./partials/header.html"></include>
     <main>
@@ -43,25 +49,26 @@
 
     <!-- SLICK jQuery -->
 
-    <script
+    <!-- <script
       type="text/javascript"
       src="//code.jquery.com/jquery-1.11.0.min.js"
     ></script>
     <script
       type="text/javascript"
       src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
-    ></script>
+    ></script> -->
 
     <!-- SLICK -->
 
-    <script
+    <!-- <script
       type="text/javascript"
       src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
+    ></script> -->
 
     <!-- BASE JS -->
 
     <script type="module" src="./js/slick.js"></script>
+    <script type="module" src="./js/loader.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
