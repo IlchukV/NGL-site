@@ -153,13 +153,15 @@
     color: $mainLightColor;
     margin-top: 24px;
     margin-bottom: 40px;
+
     @include tablet {
+        margin-top: 44px;
     margin-bottom: 56px;
-    font-size: 26px;
+    font-size: 36px;
     }
     @include desktop {
     margin-bottom: 56px;
-    font-size: 46px;
+    font-size: 40px;
     text-align: left;
     }
 }

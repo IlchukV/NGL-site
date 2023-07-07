@@ -1,6 +1,7 @@
 .header-container {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .header {
@@ -46,6 +47,16 @@
 
   font-size: 40px;
   line-height: 1.08;
+  }
+}
+
+.logo__name, .navigation__tablet__list__link {
+  color: $accentColor;
+  transition: color $duration $timingFunction;
+
+  &:hover,
+  &:focus {
+    color: $mainLightColor;
   }
 }
 
@@ -96,6 +107,7 @@
 .navigation__tablet__list {
   display: flex;
 }
+
 
 .navigation-container {
   display: flex;
