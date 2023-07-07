@@ -111,6 +111,38 @@
            }
 }
 
+.hero__title2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 31px;
+
+    line-height: 1.07;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    text-align: center;
+
+    color: $mainLightColor;
+    padding-top: 10px;
+    max-width: 300;
+    margin: 0 auto;
+
+    @include tablet {
+        padding-top: 18px;
+        margin-bottom: 16px;
+        max-width: 600;
+        font-size: 40px;
+    }
+
+    @include desktop {
+        // text-align: left;
+        font-size: 67px;
+        padding-top: 20px;
+        margin-bottom: 32px;
+        max-width: 1200;
+
+    }
+}
+
 .hero__pretitle {
     // text-align: left;
     font-size: 20px;
@@ -131,6 +163,7 @@
     text-align: left;
     }
 }
+
 
 .hero__text {
     text-align: center;

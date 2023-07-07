@@ -230,3 +230,13 @@ select::-ms-expand {
 .overlay .modal.active {
   pointer-events: none;
 }
+
+.socials-modal{
+  display: flex;
+  
+}
+
+.soc__icon {
+ 
+  fill: rgb(92, 165, 224);
+}
