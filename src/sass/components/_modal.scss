@@ -232,11 +232,13 @@ select::-ms-expand {
 }
 
 .socials-modal{
-  display: flex;
-  
+  display: inline-block;
+  @include tablet {
+      display: flex;
+    }
 }
 
 .soc__icon {
- 
+margin-bottom: 57px;
   fill: rgb(92, 165, 224);
 }
