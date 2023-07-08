@@ -171,3 +171,26 @@
 .navigation__tablet__list__tel:nth-child(2) {
   margin-left: 16px;
 }
+
+.change-lang{
+  margin-left: 20px;
+  color: $accentColor;
+}
+
+select {
+  // padding-right: 30px;
+  font-family: 'Times New Roman', sans-serif;
+    font-style: normal;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  // background-image: url('../images/arrow-down.svg');
+  background-repeat: repeat, repeat;
+  background-position: right 0.7em top 50%, 0 0;
+  background-size: 24px auto, 100%;
+  background-color: #0e0c0c;
+}
+
+select::-ms-expand {
+  display: none;
+}
