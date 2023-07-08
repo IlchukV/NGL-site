@@ -1,0 +1,2 @@
+var select=document.querySelector("select"),allLang=["en","ua","ru"];function changeURLlanguage(){select.value;location.href=window.location.pathname+"#"+lang,location.reload()}function changeLanguage(){var e=window.location.hash;e=e.substr(1),allLang.includes(e)||(location.href=window.location.pathname+"#ru",location.reload()),select.value=e,document.querySelector}select.addEventListener("change",changeURLlanguage);
+//# sourceMappingURL=restaurant.c12ee623.js.map
