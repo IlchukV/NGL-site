@@ -6,7 +6,7 @@
     background-size: cover;
     background-position: center;
     margin-right: auto;
-    margin-left: auto;
+        margin-left: auto;
     padding-bottom: 20px;
     height: 740px;
     @include retina {
@@ -53,4 +53,306 @@
     @include desktop {
         margin-bottom: 249px;
     }
+}
+
+// Цінності
+
+// .slider-about-thumb {
+//     padding: 63px 24px;
+// }
+.slider-about-thumb {
+    width: 100%;
+    padding: 63px 0px;
+
+}
+
+.slider-about-thumb .slick-list {
+    width: 100%;
+}
+
+// .slider-about-thumb .slider-about {
+//     position: relative;
+//     right: -69px;
+//     width: 86%;
+
+//     @include mobile {
+//         width: 330px;
+//     }
+
+//     @include tablet {
+//         width: 428px;
+//         right: 0;
+//     }
+
+//     @include desktop {
+//         width: 548px;
+//     }
+// }
+
+// .homepage-slider .slick-track {
+//     display: flex;
+//     gap: 25px;
+
+//     @include tablet {
+//         gap: 40px;
+//     }
+// }
+
+.homepage-slider .slider-about {
+    width: 245px;
+
+    @include tablet {
+        width: 194px;
+    }
+
+    @include desktop {
+        width: 254px;
+    }
+}
+
+// .homepage-slider .slick-arrow {
+//     position: absolute;
+//     bottom: -62px;
+//     top: auto;
+//     z-index: 10;
+
+//     @include tablet {
+//         top: 125%;
+//     }
+
+//     @include desktop {
+//         top: 120%;
+//     }
+// }
+
+// .homepage-slider .slick-arrow.slick-prev {
+//     background-image: url(../images/arrow-left.svg);
+//     background-repeat: no-repeat;
+//     left: auto;
+//     right: 64px;
+
+//     @include desktop {
+//         left: 82%;
+//     }
+// }
+
+// .homepage-slider .slick-arrow.slick-next {
+//     background-image: url(../images/arrow-right.svg);
+//     background-repeat: no-repeat;
+//     right: 15px;
+
+//     @include tablet {
+//         right: 0;
+//     }
+
+//     @include desktop {
+//         left: 95%;
+//     }
+// }
+
+// .homepage-slider .slick-prev,
+// .homepage-slider .slick-next {
+//     width: 32px;
+//     height: 32px;
+// }
+
+// .homepage-slider .slick-prev:before,
+// .homepage-slider .slick-next:before {
+//     font-size: 0;
+// }
+
+// // .slider-about .slick-arrow.slick-next {}
+
+// // .slider-about-thumb .slick-list {}
+
+// // MIRRORED
+
+// .slider-about-thumb.slider-about-thumb--mirrored {
+//     width: 100%;
+
+//     @include tablet {
+//         position: absolute;
+//         width: 428px;
+//         bottom: 96px;
+//         left: 0;
+//     }
+
+//     @include desktop {
+//         bottom: 118px;
+//         right: 15px;
+//         width: 548px;
+//     }
+// }
+
+// .slider-about-thumb--mirrored .slider-about {
+//     position: relative;
+//     left: -15px;
+//     width: 86%;
+
+//     @include mobile {
+//         width: 330px;
+//     }
+
+//     @include tablet {
+//         width: 428px;
+//         left: 0;
+//     }
+
+//     @include desktop {
+//         width: 548px;
+//     }
+// }
+
+// .slider-about-thumb--mirrored .homepage-slider .slick-track {
+//     position: relative;
+//     display: flex;
+//     gap: 25px;
+
+//     @media screen and (max-width: 1023px) {
+//         left: 85px;
+//     }
+
+//     @include tablet {
+//         gap: 40px;
+//     }
+// }
+
+// .about-hotel__slider .slick-arrow.slick-prev {
+//     background-image: url(../images/arrow-left.svg);
+//     background-repeat: no-repeat;
+//     left: auto;
+//     left: 15px;
+
+//     @include tablet {
+//         left: 0;
+//     }
+
+//     @include desktop {
+//         left: 0;
+//     }
+// }
+
+// .about-hotel__slider .slick-arrow.slick-next {
+//     background-image: url(../images/arrow-right.svg);
+//     background-repeat: no-repeat;
+//     left: 79px;
+
+//     @include tablet {
+//         left: 64px;
+//     }
+
+//     @include desktop {
+//         left: 64px;
+//     }
+// }
+
+// карточки
+.portfolio__list {
+    @include tablet {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
+
+.portfolio__item {
+    background-color: $heroBgColor;
+
+    &:not(:last-child) {
+        @media screen and (max-width: 767px) {
+            margin-bottom: 30px;
+        }
+    }
+
+    @include tablet {
+        flex-basis: calc((100% - 30px) / 2);
+    }
+
+    @include desktop {
+        flex-basis: calc((100% - 60px) / 3);
+    }
+}
+
+.portfolio__link {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+    transition: box-shadow $duration $accentBorderColor;
+
+    &:hover,
+    &:focus {
+        box-shadow: $accentBorderColor;
+    }
+
+        @include tablet {
+            margin-right: 10px;
+        margin-left: 10px;
+        }
+    
+        @include desktop {
+            
+        }
+}
+
+.portfolio__box {
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio__image {
+    width: 454px;
+    @include tablet {
+        width: 354px;
+    }
+
+    @include desktop {
+        width: 370px;
+    }
+}
+
+.portfolio__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 63px 24px;
+    font-size: 18px;
+    line-height: 1.56;
+    color: $mainDarkColor;
+    background-color: $accentBorderColor;
+    transform: translatey(101%);
+    transition: transform $duration $timingFunction;
+}
+
+.portfolio__link:hover .portfolio__overlay,
+.portfolio__link:focus .portfolio__overlay {
+    transform: translatey(0);
+}
+
+.portfolio__content {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-grow: 1;
+    padding: 20px 24px;
+    // border-right: 1px solid $primaryBgColor;
+    // border-bottom: 1px solid $primaryBgColor;
+    // border-left: 1px solid $primaryBgColor;
+}
+
+.portfolio__name {
+    // justify-content: center;
+    margin-bottom: 4px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: $accentColor;
+}
+
+.portfolio__text {
+    font-size: 16px;
+    line-height: 1.9;
 }
