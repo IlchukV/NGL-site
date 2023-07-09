@@ -63,6 +63,7 @@
 .slider-about-thumb {
     // width: 100%;
     padding: 63px 0px;
+    
 
 }
 
@@ -98,17 +99,17 @@
 //     }
 // }
 
-.homepage-slider .slider-about {
-    width: 245px;
+// .homepage-slider .slider-about {
+//     width: 245px;
 
-    @include tablet {
-        width: 194px;
-    }
+//     @include tablet {
+//         width: 194px;
+//     }
 
-    @include desktop {
-        width: 254px;
-    }
-}
+//     @include desktop {
+//         width: 254px;
+//     }
+// }
 
 // .homepage-slider .slick-arrow {
 //     position: absolute;
@@ -324,7 +325,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    padding: 63px 24px;
+    padding: 43px 24px;
     font-family: 'Times New Roman';
         font-style: normal;
         font-weight: 700;
