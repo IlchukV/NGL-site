@@ -269,7 +269,7 @@
     font-size: 18px;
     line-height: 1.76;
     text-align: left;
-    color: $accentColor;
+    color: $mainLightColor;
 
     @media screen and (min-width:480px) {
             font-size: 14px;
@@ -283,6 +283,7 @@
 .products__text_2 {
     font-size: 20px;
     line-height: 1.76;
+    font-weight: 700;
     color: $mainLightColor;
     margin-bottom: 10px;
 
