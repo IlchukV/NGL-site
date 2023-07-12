@@ -1,13 +1,14 @@
 // футер
 
 .footer {
-  padding: 20px 0;
+  padding: 0;
   background: $footerBgColor;
 }
 
 .footer__container {
   display: flex;
   flex-direction: column;
+  padding-bottom: 20px;
 
   @include desktop {
     flex-direction: row;
@@ -226,4 +227,53 @@ font-family: 'Times New Roman', sans-serif;
   //   font-size: 64px;
   //   margin-right: 50px;
   // }
+}
+
+.footer-autors {
+  position: relative;
+  display: flex;
+  padding: 10px 0px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: $mainLightColor;
+  background-color: inherit;
+  justify-content: center;
+
+  @include mobile {
+    // width: 480px;
+  }
+
+  @include tablet {
+    // width: 768px;
+    padding: 12px;
+  }
+
+  @include desktop {
+    // width: 1200px;
+
+  }
+}
+
+.footer-autors::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: $accentColor;
+
+}
+
+.autors-title {
+  width: 260px;
+
+  @include desktop {
+    width: 700;
+  }
+}
+
+.autors-title_text{
+  text-align: center;
 }
