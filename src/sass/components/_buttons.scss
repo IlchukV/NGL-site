@@ -26,6 +26,8 @@
 
     @include tablet {
       // min-width: 384px;
+      justify-content: center;
+      align-items: center;
     }
   
     @include desktop {

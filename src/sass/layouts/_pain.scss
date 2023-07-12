@@ -8,6 +8,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    
     // background-image: url(../images/Backgroud_mobile.jpg);
 
     // @include retina {
@@ -34,8 +35,8 @@
 }
 
 .products__label {
-    margin-bottom: 12px;
-    font-weight: 800;
+    
+    font-weight: 400;
     font-size: 18px;
     line-height: 1.22;
     text-transform: uppercase;
@@ -51,7 +52,7 @@
 
 .products__title {
     margin-bottom: 10px;
-
+    padding-top: 30px;
     font-size: 30px;
     font-family: 'Times New Roman', sans-serif;
     color: $mainDarkColor;
@@ -169,21 +170,21 @@
 
 .products__item:nth-child(1) {
     
-    background-color: $mainDarkColor;
+    background-color: $secondaryTitleColor;
     transition: color $duration $timingFunction,
             background-color $duration $timingFunction;
             color: $secondaryAccentColor;
 }
 
 .products__item:nth-child(2) {
-    background-color: $mainDarkColor;
+    background-color: $secondaryTitleColor;
     transition: color $duration $timingFunction,
             background-color $duration $timingFunction;
             color: $secondaryAccentColor;
 }
 
 .products__item:nth-child(3) {
-    background-color: $mainDarkColor;
+    background-color: $secondaryTitleColor;
     transition: color $duration $timingFunction,
             background-color $duration $timingFunction;
             color: $secondaryAccentColor;
@@ -252,6 +253,7 @@
     font-size: 20px;
     line-height: 1.23;
     text-transform: uppercase;
+    color: $accentColor;
 
     @media screen and (min-width:768px) {
         font-size: 18px;
@@ -267,6 +269,7 @@
     font-size: 18px;
     line-height: 1.76;
     text-align: left;
+    color: $accentColor;
 
     @media screen and (min-width:480px) {
             font-size: 14px;

@@ -1,0 +1,48 @@
+.features {
+    background-color: $secondaryBgColor;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.features__list {
+    @include tablet {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
+
+.features__item {
+    &:not(:last-child) {
+        @media screen and (max-width: 767px) {
+            margin-bottom: 30px;
+        }
+    }
+
+    @include tablet {
+        flex-basis: calc((100% - 30px));
+    }
+
+    @include desktop {
+        flex-basis: calc((100% - 90px) / 2);
+    }
+}
+
+.features__box {
+    margin-bottom: 30px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: $secondaryBgColor;
+}
+
+.features__subtitle {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: $mainDarkColor;
+}
