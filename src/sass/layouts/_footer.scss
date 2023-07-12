@@ -182,11 +182,11 @@
   margin-right: 0;
 
   @include tablet {
-    flex-wrap: nowrap;
-    gap: 40px;
-    margin-left: auto;
-    justify-content: end;
-    margin-bottom: 0;
+    // flex-wrap: nowrap;
+    // gap: 40px;
+    // margin-left: auto;
+    // justify-content: end;
+    // margin-bottom: 0;
   }
 
     @include desktop{

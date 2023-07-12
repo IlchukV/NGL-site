@@ -201,13 +201,13 @@ font-family: 'Times New Roman', sans-serif;
     margin-bottom: 61px;
     margin-right: 0;
 
-    @include tablet {
-    flex-wrap: nowrap;
-    gap: 40px;
-    margin-left: auto;
-    justify-content: end;
-    margin-bottom: 0;
-    }
+    // @include tablet {
+    // flex-wrap: nowrap;
+    // gap: 40px;
+    // margin-left: auto;
+    // // justify-content: end;
+    // margin-bottom: 0;
+    // }
 }
 
 .hero__socials {

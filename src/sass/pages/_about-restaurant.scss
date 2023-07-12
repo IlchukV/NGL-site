@@ -1,10 +1,10 @@
 .about-restaurant__container {
-  position: relative;
+  // position: relative;
   padding-top: 16px;
   // padding-bottom: 72px;
   @include tablet {
     // padding-top: 120px;
-    padding-bottom: 262px;
+    // padding-bottom: 262px;
   }
   @include desktop {
     padding-bottom: 15px;
@@ -15,6 +15,8 @@
   // шрифт
   font-family: 'Times New Roman', serif;
   font-size: 20px;
+  padding-top: 50px;
+  padding-left: 24px;
   line-height: 1.15;
   color: $mainDarkColor;
 
@@ -55,7 +57,9 @@
 }
 
 .info-card {
+ 
   @include tablet {
+    
     display: flex;
   }
 }
@@ -118,11 +122,15 @@
   }
 }
 
+
 .info-card__thumb {
   box-shadow: 2px 2px 60px 2px $primaryShadowColor;
   border-radius: 2px;
   overflow: hidden;
+  visibility: hidden;
+
   @include tablet {
+    visibility: visible;
     box-shadow: 5px 5px 70px 17px $primaryShadowColor;
   }
 }
