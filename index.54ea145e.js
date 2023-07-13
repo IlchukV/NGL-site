@@ -1,2 +1,2 @@
 document.body.onload=function(){setTimeout((function(){var e=document.getElementById("page-preloader");e.classList.contains("done")||e.classList.add("done")}),3500)};
-//# sourceMappingURL=restaurant.811f3538.js.map
+//# sourceMappingURL=index.54ea145e.js.map
