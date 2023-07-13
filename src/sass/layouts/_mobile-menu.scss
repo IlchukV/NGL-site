@@ -96,6 +96,7 @@
 .mobile-menu-social {
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .mobile-menu-social__item {
@@ -108,10 +109,16 @@
     position: relative;
 
     font-weight: 500;
-    font-size: 18px;
+    font-size: 25px;
     line-height: 1.22;
     letter-spacing: 0.02em;
     color: $secondaryAccentColor;
+    cursor: pointer;
+    
+        &:hover,
+        &:focus {
+            fill: $mainLightColor;
+        }
 
     &::after {
         position: absolute;

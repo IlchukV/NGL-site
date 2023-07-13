@@ -208,7 +208,7 @@
       width: 100%;
       display: flex;
       align-items: center;
-      z-index: 10;
+      z-index: 2;
 }
 
 .header__container {
@@ -311,10 +311,10 @@
   padding-top: 32px;
   padding-bottom: 32px;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 34px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: $mainDarkColor;
+  color: $mainLightColor;
   transition: color $duration $timingFunction;
 
   &:hover,
