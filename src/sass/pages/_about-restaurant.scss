@@ -1,6 +1,7 @@
 .about-restaurant__container {
   // position: relative;
-  padding-top: 16px;
+  padding: 16px 26px;
+  background-color: $secondaryTitleColor;
   // padding-bottom: 72px;
   @include tablet {
     // padding-top: 120px;
@@ -14,18 +15,18 @@
 .about-restaurant__subtitle {
   // шрифт
   font-family: 'Times New Roman', serif;
+  font-weight: 700;
   font-size: 20px;
   padding-top: 50px;
   padding-left: 24px;
   line-height: 1.15;
-  color: $mainDarkColor;
+  color: $mainLightColor;
 
   margin-bottom: 12px;
 
   @include tablet {
     font-size: 32px;
-    line-height: 1.16;
-    margin-bottom: 4px;
+    padding-top: 70px;
   }
 }
 
@@ -85,6 +86,7 @@
   font-family: 'Times New Roman', sans-serif;
     font-weight: 400;
     font-size: 20px;
+    color: $mainLightColor;
   // line-height: 1.25;
   // letter-spacing: 0.02em;
   @include tablet {
