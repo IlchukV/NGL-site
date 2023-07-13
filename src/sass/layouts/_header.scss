@@ -215,6 +215,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 @media screen and (max-width: 767px) {
@@ -223,6 +225,8 @@
   .header__contacts {
     display: none;
   }
+
+   
 }
 
 .contacts {
@@ -321,6 +325,13 @@
   &:focus {
     color: $secondaryAccentColor;
   }
+
+    @include tablet {
+          font-size: 24px;
+        }
+        @include desktop {
+          // font-size: 34px;
+        }
 }
 
 .navigation__link--current {
