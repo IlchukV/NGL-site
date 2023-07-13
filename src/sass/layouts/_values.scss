@@ -90,7 +90,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    padding: 35px 15px 0px 15px;
+    padding: 15px 15px 0px 15px;
     font-family: 'Times New Roman';
         font-style: normal;
         font-weight: 700;
@@ -103,13 +103,13 @@
     transition: transform $duration $timingFunction;
 
     @include tablet {
-        font-size: 24px;
+        font-size: 20px;
         padding: 43px 20px 0px 30px;
         
         }
         
         @include desktop {
-        font-size: 12px;
+        font-size: 14px;
         padding: 23px 20px 0px 30px;
         }   
 }
