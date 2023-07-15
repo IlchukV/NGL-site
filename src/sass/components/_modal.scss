@@ -114,20 +114,20 @@
   background-color: $primaryBgColor;
 }
 
-input[type='date'] {
-  background-image: url('../images/arrow-down.svg');
-  background-repeat: no-repeat, repeat;
-  background-position: right 0.7em top 50%, 0 0;
-  background-size: 24px auto, 100%;
-}
-input[type='date']::before {
-  content: attr(placeholder);
-  width: 100%;
-}
-input[type='date']:focus::before,
-input[type='date']:valid::before {
-  display: none;
-}
+// input[type='date'] {
+//   background-image: url('../../images/arrow-down.svg');
+//   background-repeat: no-repeat, repeat;
+//   background-position: right 0.7em top 50%, 0 0;
+//   background-size: 24px auto, 100%;
+// }
+// input[type='date']::before {
+//   content: attr(placeholder);
+//   width: 100%;
+// }
+// input[type='date']:focus::before,
+// input[type='date']:valid::before {
+//   display: none;
+// }
 
 .modal-input::-webkit-inner-spin-button,
 .modal-input::-webkit-calendar-picker-indicator {

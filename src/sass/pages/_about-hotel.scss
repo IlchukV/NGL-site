@@ -1,16 +1,16 @@
-.about-hotel__container {
-    @extend .about-restaurant__container;
-}
+// .about-hotel__container {
+//     @extend .about-restaurant__container;
+// }
 
-.about-hotel__subtitle {
-    @extend .about-restaurant__subtitle;
-    text-align: right;
-}
+// .about-hotel__subtitle {
+//     @extend .about-restaurant__subtitle;
+//     text-align: right;
+// }
 
-.about-hotel__logo {
-    @extend .about-restaurant__logo;
-    text-align: right;
-}
+// .about-hotel__logo {
+//     @extend .about-restaurant__logo;
+//     text-align: right;
+// }
 
 .info-card--mirrored:first-child .info-card__description {
     margin-left: auto;

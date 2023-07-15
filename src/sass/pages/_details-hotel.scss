@@ -31,49 +31,50 @@
   }
 }
 
-.details-hotel__text-container {
-    @extend .details-restaurant__text-container;
-    padding-left: 0;
-    padding-right: calc(100%/3);
-        @include tablet {
-        padding-right: 230px;
-        margin-bottom: 40px;
-        margin-left: auto;
-    }
-    @include desktop {
-        padding-right: 253px;
-    }
-}
 
-.details-hotel__logo {
-    @extend .details-restaurant__logo;
-    text-align: right;
-}
+// .details-hotel__text-container {
+//     @extend .details-restaurant__text-container;
+//     padding-left: 0;
+//     padding-right: calc(100%/3);
+//         @include tablet {
+//         padding-right: 230px;
+//         margin-bottom: 40px;
+//         margin-left: auto;
+//     }
+//     @include desktop {
+//         padding-right: 253px;
+//     }
+// }
 
-.details-hotel__title {
-    @extend .details-restaurant__title;
-    text-align: right;
-}
+// .details-hotel__logo {
+//     @extend .details-restaurant__logo;
+//     text-align: right;
+// }
 
-.details-hotel__text {
-    @extend .details-restaurant__text;
-}
+// .details-hotel__title {
+//     @extend .details-restaurant__title;
+//     text-align: right;
+// }
 
-.details-hotel__thumb {
-        @include tablet {
-        display: flex;
-        align-items: flex-end;
-    }
-}
+// .details-hotel__text {
+//     @extend .details-restaurant__text;
+// }
 
-.buttons-list__details-hotel {
-        text-align: center;
-    @include tablet {
-        margin-right: 0;
-        margin-left: 29px;
-    }
-    @include desktop {
-        margin-right: 0;
-        margin-left: 32px;
-    }
-}
+// .details-hotel__thumb {
+//         @include tablet {
+//         display: flex;
+//         align-items: flex-end;
+//     }
+// }
+
+// .buttons-list__details-hotel {
+//         text-align: center;
+//     @include tablet {
+//         margin-right: 0;
+//         margin-left: 29px;
+//     }
+//     @include desktop {
+//         margin-right: 0;
+//         margin-left: 32px;
+//     }
+// }
