@@ -12,6 +12,39 @@
   }
 }
 
+.about-restaurant__title {
+  font-family: 'Times New Roman', sans-serif;
+  font-weight: 700;
+  font-size: 31px;
+
+  line-height: 1.07;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  text-align: center;
+
+  color: $mainLightColor;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  max-width: 300;
+  margin: 0 auto;
+
+  @include tablet {
+    padding-top: 108px;
+    margin-bottom: 16px;
+    max-width: 600;
+    font-size: 40px;
+  }
+
+  @include desktop {
+    // text-align: left;
+    font-size: 45px;
+    padding-top: 124px;
+    margin-bottom: 32px;
+    max-width: 1200;
+
+  }
+}
+
 .about-restaurant__subtitle {
   // шрифт
   font-family: 'Times New Roman', serif;
