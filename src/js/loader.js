@@ -5,6 +5,6 @@ document.body.onload = function () {
     {
         preloader.classList.add('done');
         }
-}, 3500)
+}, 1500)
 }
 
