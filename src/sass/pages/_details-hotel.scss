@@ -5,28 +5,28 @@
   max-height: 878px;
   margin: 0px auto;
   background-color: $detailsHotelBgColor;
-  background-image:  linear-gradient($detailsHotelBgColor, $detailsHotelBgColor), url('../images/home/mobile/hmpg-19-mb.jpg');
+//   background-image:  linear-gradient($detailsHotelBgColor, $detailsHotelBgColor), url('../images/home/mobile/hmpg-19-mb.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   @include retina {
-        background-image:  linear-gradient($detailsHotelBgColor, $detailsHotelBgColor), url('../images/home/mobile/hmpg-19-mb@2x.jpg');
+        // background-image:  linear-gradient($detailsHotelBgColor, $detailsHotelBgColor), url('../images/home/mobile/hmpg-19-mb@2x.jpg');
 }
   @include tablet {
     padding-top: 48px;
     padding-bottom: 96px;
     max-width: 1024px;
     max-height: 620px;
-    background-image:  linear-gradient($detailsHotelBgColor, $detailsHotelBgColor), url('../images/home/tablet/hmpg-19-tb.jpg');
+    // background-image:  linear-gradient($detailsHotelBgColor, $detailsHotelBgColor), url('../images/home/tablet/hmpg-19-tb.jpg');
     @include retina {
-        background-image:  linear-gradient($detailsHotelBgColor, $detailsHotelBgColor), url('../images/home/tablet/hmpg-19-tb@2x.jpg');
+        // background-image:  linear-gradient($detailsHotelBgColor, $detailsHotelBgColor), url('../images/home/tablet/hmpg-19-tb@2x.jpg');
     }
   }
   @include desktop {
     max-width: 1280px;
-    background-image:  linear-gradient($detailsHotelBgColor, $detailsHotelBgColor), url('../images/home/desktop/hmpg-19-ds.jpg');
+    // background-image:  linear-gradient($detailsHotelBgColor, $detailsHotelBgColor), url('../images/home/desktop/hmpg-19-ds.jpg');
     @include retina {
-        background-image:  linear-gradient($detailsHotelBgColor, $detailsHotelBgColor), url('../images/home/desktop/hmpg-19-ds@2x.jpg');
+        // background-image:  linear-gradient($detailsHotelBgColor, $detailsHotelBgColor), url('../images/home/desktop/hmpg-19-ds@2x.jpg');
     }
   }
 }
