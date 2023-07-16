@@ -39,7 +39,7 @@
 }
 
 .advantages__item {
-    margin-bottom: 32px;
+    margin-bottom: 10px;
 
     @include tablet {
         margin-bottom: 0;
@@ -152,7 +152,7 @@
 .advantages__preTitle {
     display: inline-flex;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 1.66;
     color: $mainDarkColor;
     width: 300px;
