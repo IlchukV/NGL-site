@@ -254,13 +254,6 @@ table {
   border-color: #c79002;
 }
 
-.modal-input::-webkit-inner-spin-button,
-.modal-input::-webkit-calendar-picker-indicator {
-  display: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-}
-
 .modal-wrap {
   margin-bottom: 20px;
   display: flex;
