@@ -8,13 +8,13 @@
 .footer__container {
   display: flex;
   flex-direction: column;
-  padding-bottom: 20px;
+  // padding-bottom: 20px;
 
-  @include desktop {
-    flex-direction: row;
-    align-items: baseline;
-    justify-content: space-between;
-  }
+  // @include desktop {
+  //   flex-direction: row;
+  //   align-items: baseline;
+  //   justify-content: space-between;
+  // }
 }
 
 .social-wrapper{
@@ -26,10 +26,10 @@
         flex-direction: column;
         justify-content: center;
 
-        @include desktop {
-          // align-items: baseline;
-            margin-right: 60px;
-          }
+        // @include desktop {
+        //   // align-items: baseline;
+        //     margin-right: 60px;
+        //   }
 }
 
 .tablet__wrapper {
@@ -39,12 +39,12 @@
     flex-direction: column;
   }
 
-  @include desktop {
-    display: flex;
-    align-items: baseline;
-    margin-right: 60px;
-    margin-bottom: 0;
-  }
+  // @include desktop {
+  //   display: flex;
+  //   align-items: baseline;
+  //   margin-right: 60px;
+  //   margin-bottom: 0;
+  // }
 }
 
 .footer__contact {
@@ -59,11 +59,11 @@
     justify-content: center;
   text-align: center;
 
-  @include desktop {
-    // margin-right: 80px;
-    margin-bottom: 50;
-    text-align: left;
-  }
+  // @include desktop {
+  //   // margin-right: 80px;
+  //   margin-bottom: 50;
+  //   text-align: left;
+  // }
 }
 
 .contact__list {
@@ -103,9 +103,9 @@
   text-align: center;
   color: $mainLightColor;
 
-  @include desktop {
-    text-align: left;
-  }
+  // @include desktop {
+  //   text-align: left;
+  // }
 }
 
 .cta-form {
@@ -114,11 +114,11 @@
   justify-content: center;
   align-items: center;
 
-  @include desktop {
-    width: 470px;
-    align-items: baseline;
-    flex-direction: row;
-  }
+  // @include desktop {
+  //   width: 470px;
+  //   align-items: baseline;
+  //   flex-direction: row;
+  // }
 }
 
 .cta-form__input {
@@ -132,9 +132,9 @@
   border: 1px solid $accentColor;
   color: $accentColor;
 
-  @include desktop {
-    margin-right: 12px;
-  }
+  // @include desktop {
+  //   margin-right: 12px;
+  // }
 }
 
 .cta-form__button {
@@ -231,7 +231,7 @@ font-family: 'Roboto', sans-serif;
 
   @include tablet {
     // width: 768px;
-    padding: 12px;
+    // padding: 12px;
   }
 
   @include desktop {
