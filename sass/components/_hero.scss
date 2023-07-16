@@ -1,7 +1,7 @@
 .hero {
     height: 400px;
         padding-top: 50px;
-        padding-bottom: 118px;
+        padding-bottom: 18px;
         text-align: center;
         // background-color: $mainTitleColor;
         
@@ -16,18 +16,20 @@
 
     padding-bottom: 40px;
     height: 570px;
+
     @include retina {
     background-image: linear-gradient(to bottom, $heroBgColor, $heroBgColor), 
     url(..//../images/03.jpg); }
+
     @include tablet {
     height: 720px;
     background-image: linear-gradient(to bottom, $heroBgColor, $heroBgColor),
     url(..//../images/03.jpg);
     
-    @include retina {
-    background-image: linear-gradient(to bottom, $heroBgColor, $heroBgColor),
-    url(..//../images/03.jpg);
-    }  
+    // @include retina {
+    // background-image: linear-gradient(to bottom, $heroBgColor, $heroBgColor),
+    // url(..//../images/03.jpg);
+    // }  
 }
     @include desktop {
     background-image: linear-gradient(to bottom, $heroBgColor, $heroBgColor),
@@ -101,9 +103,9 @@ font-family: 'Roboto', sans-serif;
     padding-bottom: 20px;
     max-width: 300;
     margin: 0 auto;
-    
+     
     @include tablet {
-        padding-top: 108px;
+        padding-top: 100px;
         margin-bottom: 16px;
         max-width: 600;
         font-size: 40px;

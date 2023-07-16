@@ -193,33 +193,6 @@ container {
   }
 }
 
-.logo__name {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.08;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-  color: #f3c653;
-  margin-top: 16px;
-}
-@media screen and (min-width: 768px) {
-  .logo__name {
-    font-size: 40px;
-    line-height: 1.08;
-  }
-}
-
-.logo__name, .navigation__tablet__list__link {
-  color: #f3c653;
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.logo__name:hover, .logo__name:focus, .navigation__tablet__list__link:hover, .navigation__tablet__list__link:focus {
-  color: #ffffff;
-}
-
 .header {
   padding-top: 16px;
   padding-bottom: 16px;
@@ -254,6 +227,33 @@ container {
     display: none;
   }
 }
+.logo__name {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.08;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #f3c653;
+  margin-top: 16px;
+}
+@media screen and (min-width: 768px) {
+  .logo__name {
+    font-size: 40px;
+    line-height: 1.08;
+  }
+}
+
+.logo__name, .navigation__tablet__list__link {
+  color: #f3c653;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.logo__name:hover, .logo__name:focus, .navigation__tablet__list__link:hover, .navigation__tablet__list__link:focus {
+  color: #ffffff;
+}
+
 .contacts {
   display: block;
 }
@@ -387,7 +387,7 @@ container {
 .hero {
   height: 400px;
   padding-top: 50px;
-  padding-bottom: 118px;
+  padding-bottom: 18px;
   text-align: center;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url(..//../images/03.jpg);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(..//../images/03.jpg);
@@ -409,12 +409,6 @@ container {
 @media screen and (min-width: 768px) {
   .hero {
     height: 720px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url(..//../images/03.jpg);
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(..//../images/03.jpg);
-  }
-}
-@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
-  .hero {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url(..//../images/03.jpg);
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(..//../images/03.jpg);
   }
@@ -503,7 +497,7 @@ container {
 }
 @media screen and (min-width: 768px) {
   .hero__title {
-    padding-top: 108px;
+    padding-top: 100px;
     margin-bottom: 16px;
     max-width: 600;
     font-size: 40px;
@@ -753,7 +747,7 @@ container {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 11px;
   line-height: 1.56;
   color: #000000;
   background-color: rgba(243, 198, 83, 0.7);
@@ -766,13 +760,13 @@ container {
 }
 @media screen and (min-width: 768px) {
   .portfolio__overlay {
-    font-size: 20px;
+    font-size: 14px;
     padding: 43px 20px 0px 30px;
   }
 }
 @media screen and (min-width: 1200px) {
   .portfolio__overlay {
-    font-size: 14px;
+    font-size: 11px;
     padding: 23px 20px 0px 30px;
   }
 }
@@ -1086,6 +1080,7 @@ container {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding-bottom: 20px;
 }
 
 .social-wrapper {
