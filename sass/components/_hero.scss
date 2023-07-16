@@ -1,4 +1,10 @@
 .hero {
+    height: 400px;
+        padding-top: 118px;
+        padding-bottom: 118px;
+        text-align: center;
+        // background-color: $mainTitleColor;
+        
     background-image: linear-gradient(to bottom, $heroBgColor, $heroBgColor), 
     url(..//../images/03.jpg);
     background-color: $heroBgColor;
@@ -91,7 +97,7 @@ font-family: 'Roboto', sans-serif;
     text-align: center;
 
     color: $mainLightColor;
-    padding-top: 100px;
+    padding-top: 10px;
     padding-bottom: 20px;
     max-width: 300;
     margin: 0 auto;
