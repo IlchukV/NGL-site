@@ -787,7 +787,7 @@ container {
 }
 @media screen and (min-width: 1200px) {
   .portfolio__overlay {
-    font-size: 11px;
+    font-size: 15px;
     padding: 23px 20px 0px 30px;
   }
 }
