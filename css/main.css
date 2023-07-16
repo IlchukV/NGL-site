@@ -595,7 +595,7 @@ container {
   }
 }
 
-.hero__pretitle--mission {
+.hero__pretitle2 {
   font-size: 15px;
   font-weight: 700;
   line-height: 1.25;
@@ -608,19 +608,19 @@ container {
   padding-right: 20px;
 }
 @media screen and (min-width: 480px) {
-  .hero__pretitle--mission {
+  .hero__pretitle2 {
     font-size: 18px;
   }
 }
 @media screen and (min-width: 768px) {
-  .hero__pretitle--mission {
+  .hero__pretitle2 {
     margin-top: 44px;
     margin-bottom: 56px;
     font-size: 26px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .hero__pretitle--mission {
+  .hero__pretitle2 {
     margin-bottom: 56px;
     font-size: 35px;
     text-align: left;
