@@ -174,7 +174,7 @@ font-family: 'Roboto', sans-serif;
     // text-align: left;
     
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1.25;
     letter-spacing: 0.02em;
     text-align: left;
@@ -198,6 +198,39 @@ font-family: 'Roboto', sans-serif;
     margin-bottom: 56px;
     font-size: 35px;
     text-align: left;
+    }
+}
+
+.hero__pretitle--mission {
+    // text-align: left;
+
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+    color: $mainLightColor;
+    margin-top: 24px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    @include mobile {
+
+        font-size: 18px;
+    }
+
+    @include tablet {
+        margin-top: 44px;
+        margin-bottom: 56px;
+        font-size: 26px;
+    }
+
+    @include desktop {
+        margin-bottom: 56px;
+        font-size: 35px;
+        text-align: left;
     }
 }
 
