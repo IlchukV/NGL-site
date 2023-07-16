@@ -6,15 +6,7 @@
     box-shadow: $modalShadow;
     border-radius: 5px;
 
-    @include mobile {
-        width: 414px;
-        padding: 60px 15px;
-    }
-
-    @include tablet {
-        width: 712px;
-        padding: 60px;
-    }
+   
 
 
     /*  Центрируем и задаем z-index */
@@ -38,6 +30,16 @@
     /* Скрываем окна  */
     opacity: 0;
     visibility: hidden;
+
+    @include mobile {
+            width: 414px;
+            padding: 60px 15px;
+        }
+    
+        @include tablet {
+            width: 712px;
+            padding: 60px;
+        }
 }
 
 

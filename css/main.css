@@ -100,7 +100,7 @@ container {
   background-color: #393737;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.25;
   letter-spacing: 0.02em;
   color: #f3c653;
@@ -386,7 +386,7 @@ container {
 
 .hero {
   height: 400px;
-  padding-top: 118px;
+  padding-top: 50px;
   padding-bottom: 118px;
   text-align: center;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url(..//../images/03.jpg);
@@ -496,7 +496,7 @@ container {
   text-transform: uppercase;
   text-align: center;
   color: #ffffff;
-  padding-top: 10px;
+  padding-top: 50px;
   padding-bottom: 20px;
   max-width: 300;
   margin: 0 auto;
@@ -549,13 +549,21 @@ container {
 }
 
 .hero__pretitle {
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.25;
   letter-spacing: 0.02em;
+  text-align: left;
   color: #ffffff;
   margin-top: 24px;
   margin-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media screen and (min-width: 480px) {
+  .hero__pretitle {
+    font-size: 18px;
+  }
 }
 @media screen and (min-width: 768px) {
   .hero__pretitle {
@@ -745,7 +753,7 @@ container {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.56;
   color: #000000;
   background-color: rgba(243, 198, 83, 0.7);
