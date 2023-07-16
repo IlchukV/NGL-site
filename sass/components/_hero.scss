@@ -173,7 +173,7 @@ font-family: 'Roboto', sans-serif;
 .hero__pretitle {
     // text-align: left;
     
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 600;
     line-height: 1.25;
     letter-spacing: 0.02em;
@@ -196,7 +196,7 @@ font-family: 'Roboto', sans-serif;
     }
     @include desktop {
     margin-bottom: 56px;
-    font-size: 30px;
+    font-size: 35px;
     text-align: left;
     }
 }
