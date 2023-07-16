@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+<link rel="apple-touch-icon" sizes="180x180" href="./images/fav180.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./images/fav32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./images/fav16.png">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+
+<body>
+
+    <!-- LOADER -->
+<div id="page-preloader" class="preloader">
+    <div class="loader">
+        <h1 class="hero__loader">Nova Generation Logistic</h1>
+        <h2 class="hero__preloader">Делаем то, что должно быть сделано!</h2>
+    </div>
+</div>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__logo">
+                <a href="./index.html" class="logo link">
+                    <span class="logo__name">NGL </span></a>
+            </div>
+            <button class="mobile-menu__button js-open-menu" aria-expanded="false" aria-controls="mobile-menu"
+                type="button">
+                <svg width="40" height="40" aria-label="Button">
+                    <use href="./images/icons3.svg#icon-mobile-menu"></use>
+                </svg>
+            </button>
+            <div class="header__nav">
+                <nav class="navigation">
+                    <ul class="navigation__list">
+                        <li class="navigation__item"><a class="navigation__link navigation__link--current"
+                                href="./index.html">Главная</a>
+                        </li>
+                        <li class="navigation__item"><a class="navigation__link navigation__link"
+                                href="./mission.html">Миссия</a></li>
+                        <li class="navigation__item"><a class="navigation__link" href="./values.html">Ценности</a>
+                        </li>
+                        <li class="navigation__item"><a class="navigation__link" href="./aboutus.html">О нас</a></li>
+                    </ul>
+                </nav>
+            </div>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+            <section class="hero">
+                <div class="container">
+                    <div class="hero__subcontainer">
+                        <h1 class="hero__title">Nova Generation Logistic</h1>
+                        <h2 class="hero__pretitle">Мы помогаем владельцам и ТОПам логистических компаний повысить прибыль,
+                            капитализацию, эффективность транспортного бизнеса.</h2>
+                                
+                        <div class="hero__buttons">
+                            <button type="button" class="hero__button button-primary js-open-modal" data-modal="1">
+                                Назначить встречу с бизнес партнёром!
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+        <!-- PAIN -->
+            <section class="products" id="paints">
+                <div class="container">
+                    <h2 class="products__title">Если Вы:</h2>
+                    <ul class="products__list list">
+                        <li class="products__item">
+                            <h3 class="products__subtitle">Владелец бизнеса </h3>
+                            <p class="products__text_2">
+                                и у вас:
+                            </p>
+                            <p class="products__text">1.- Невысокая капитализация бизнеса;<br>
+                                2.- Идет много времени на решение операционных вопросов;<br>
+                                3.- Не сплочённая управленческая команда;<br>
+                            </p>
+                            <a class="products__btn" href="#help"><svg class="products__icon icon" width="40" height="16">
+                                    <use href="./images/symbol-defs3.svg#icon-rrow"></use>
+                                </svg></a>
+                        </li>
+                        <li class="products__item">
+                            <h3 class="products__subtitle">Операционный директор</h3>
+                            <p class="products__text_2">
+                                и у вас:
+                            </p>
+                            <p class="products__text">1.- Низкие темпы роста бизнеса;<br>
+                                2.- Низкая рентабельность предприятия;<br>
+                                3.- Низкая вовлечённость персонала;<br>
+                            </p>
+                            <a class="products__btn" href="#help"><svg class="products__icon icon" width="40" height="16">
+                                    <use href="./images/symbol-defs3.svg#icon-rrow"></use>
+                                </svg></a>
+                        </li>
+                        <li class="products__item">
+                            <h3 class="products__subtitle">Финансовый директор</h3>
+                            <p class="products__text_2">
+                                и у вас:
+                            </p>
+                            <p class="products__text">1.- Невысокие финансовые показатели;<br>
+                                2.- Высокие затраты на активы;<br>
+                                3.- Чрезмерные эксплуатационные и транспортные расходы;<br>
+                            </p>
+                            <a class="products__btn" href="#help"><svg class="products__icon icon" width="40" height="16">
+                                    <use href="./images/symbol-defs3.svg#icon-rrow"></use>
+                                </svg></a>
+                        </li>
+                    </ul>
+            
+                </div>
+            
+            </section>
+
+        <!-- HELP -->
+            <section class="section features" id="help">
+                <div class="container">
+                    <h2 class="products__title">Мы помогаем:</h2>
+                    <ul class="features__list">
+            
+                        <li class="features__item">
+                            <div class="features__box">
+                                <svg width="70" height="70">
+                                    <use href="./images/icons3.svg#icon-diagram"></use>
+                                </svg>
+                            </div>
+                            <h3 class="features__subtitle">провести комплекс проектов по повышению операционной эффективности и
+                                росту прибыли</h3>
+                        
+                        </li>
+                        <li class="features__item">
+                            <div class="features__box">
+                                <svg width="70" height="70">
+                                    <use href="./images/icons3.svg#icon-astronaut"></use>
+                                </svg>
+                            </div>
+                            <h3 class="features__subtitle">прокачать команду бизнеса и улучшить межфункциональную координацию</h3>
+                        
+                        </li>
+                    </ul>
+                    <a class=" button-primary" href="./make.html">Узнать больше.</a>
+            
+                    <div class="help-button">
+            
+                        <button type="button" class="hero__button button-primary  js-open-modal" data-modal="1">
+                            Заказать бесплатную консультацию!
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+        <!-- Advantage-->
+            <section class="advantages">
+                <div class="container">
+                    <h2 class="advantages__title products__title">Почему мы:</h2>
+                    <ul class="advantages__list">
+            
+                        <li class="advantages__item list">
+                            <span class="advantages__thumb-cow-icon"></span>
+                            <h3 class="advantages__number">300+</h3>
+                            <p class="advantages__preTitle">Реализованных проэктов в логистике.</p>
+                        </li>
+            
+                        <li class="advantages__item list">
+                            <span class="advantages__thumb-weight-icon"></span>
+                            <h3 class="advantages__number">100+</h3>
+                            <p class="advantages__preTitle">Проведённых обучений.</p>
+                        </li>
+            
+                        <li class="advantages__item list">
+                            <span class="advantages__thumb-ice-icon"></span>
+                            <h3 class="advantages__number">30+</h3>
+                            <p class="advantages__preTitle">Находится на поддержке наставников проэктов.</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+    </main>
+
+        <!-- FOOTER -->
+    <footer class="footer" id="contacts">
+        <div class="container footer__container">
+            <div class="tablet__wrapper">
+                <div class="address-wrapper">
+                    <a class="footer__logo link" href="./index.html">NGL</a>
+    
+                </div>
+                <div class="social-wrapper">
+                    <p class="cta__title">Свяжитесь с нами</p>
+                    <button type="button" class="  button-primary  js-open-modal" data-modal="1">
+                        Заказать диагностику Бизнеса!
+                    </button>
+                </div>
+            </div>
+            <div class="form-wrapper">
+                <p class="cta__title">Подпишитесь на рассылку</p>
+                <form class="footer__form cta-form">
+                    <input class="cta-form__input" type="email" placeholder="E-mail">
+                    <button class="button-primary" type="submit">Подписаться
+                    </button>
+                </form>
+            </div>
+        </div>
+    
+        <div class="footer-autors">
+            <div class="autors-title">
+                <p class="autors-title_text">© 2023 - Nova Generation Logictic. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MOBAL MENU -->
+    <div class="mobile-menu js-menu-container" id="mobile-menu">
+        <button class="mobile-menu__button js-close-menu" type="button">
+            <svg width="40" height="40" aria-label="Кнопка мобільного меню">
+                <use href="./images/icons3.svg#icon-mobile-menu-close"></use>
+            </svg>
+        </button>
+        <ul class="mobile-menu-nav">
+            <li class="mobile-menu-nav__item"><a class="navigation__link navigation__link" href="./index.html">Главная</a>
+            </li>
+            <li class="mobile-menu-nav__item"><a class="navigation__link navigation__link" href="./mission.html">Миссия</a>
+            </li>
+            <li class="mobile-menu-nav__item"><a class="navigation__link" href="./values.html">Ценности</a>
+            </li>
+            <li class="mobile-menu-nav__item"><a class="navigation__link" href="./aboutus.html">О нас</a></li>
+        </ul>
+        <ul class="mobile-menu-contact">
+            <li class="mobile-menu-contact__item"><a class="mobile-menu-contact__email"
+                    href="mailto:info@ngl-global.com">info@ngl-global.com</a></li>
+        </ul>
+        <ul class="mobile-menu-social">
+            <li class="mobile-menu-social__item">
+                <a class="mobile-menu-social__link" href="https://wa.me/4915736251672" rel="noreferrer noopener"
+                    target="_blank" title="Instagram">WhatsApp</a>
+            </li>
+            <li class="mobile-menu-social__item">
+                <a class="mobile-menu-social__link" href="https://t.me/VIP_NGL_Consulting" rel="noreferrer noopener"
+                    target="_blank" title="Twitter">Telegram</a>
+            </li>
+            <li class="mobile-menu-social__item">
+                <a class="mobile-menu-social__link" href="https://msng.link/o?4915736251672=vi" rel="noreferrer noopener"
+                    target="_blank" title="Facebook">Viber</a>
+            </li>
+    
+        </ul>
+    </div>
+
+        <!-- MODAL WINDOW -->
+    <div class="modal" data-modal="1">
+        <div class="modal-wrapper">
+            <button type="button" class="modal__close js-modal-close">
+                <svg class="modal__close-icon" width="18px" height="18px">
+                    <use href="./images/icons.svg#icon-close_modal"></use>
+                </svg>
+            </button>
+    
+            <h2 class="modal__title">Выберите удобный месенджер:</h2>
+            <div class="socials">
+                <ul class="socials-modal">
+    
+                    <li class="socials__link"> <a href="https://wa.me/4915736251672" target="_blank"
+                            rel="nofollow noopener noreferrer"><svg class="soc__icon">
+                                <use href="./images/symbol-defsSoc.svg#icon-whatsapp"></use>
+                            </svg></a></li>
+                    <li class="socials__link"> <a href="https://t.me/VIP_NGL_Consulting" target="_blank"
+                            rel="nofollow noopener noreferrer"><svg class="soc__icon">
+                                <use href="./images/symbol-defsSoc.svg#icon-telegram"></use>
+                            </svg></a></li>
+                    <li class="socials__link"> <a href="https://msng.link/o?4915736251672=vi" target="_blank"
+                            rel="nofollow noopener noreferrer"><svg class="soc__icon">
+                                <use href="./images/symbol-defsSoc.svg#icon-viber"></use>
+                            </svg></a></li>
+                    <li class="socials__link"> <a href="mailto:vip.ngl.consulting@gmail.com" target="_blank"
+                            rel="nofollow noopener noreferrer"><svg class="soc__icon">
+                                <use href="./images/symbol-defsSoc.svg#icon-gmail"></use>
+                            </svg></a></li>
+    
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="overlay js-overlay-modal"></div>
+
+        <!-- Scripts -->
+    <script type="module" src="./js/modal.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+        crossorigin="anonymous"></script>
+    <script src="./js/mobile-menu.js"></script>
+    <script type="module" src="./js/loader.js"></script>
+</body>
+
+</html>
