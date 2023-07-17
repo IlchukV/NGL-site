@@ -131,7 +131,7 @@ font-family: 'Roboto', sans-serif;
     @include desktop {
         // text-align: left;
         font-size: 45px;
-        padding-top: 114px;
+        padding-top: 100px;
         margin-bottom: 32px;
         max-width: 1200;
         
@@ -197,7 +197,7 @@ font-family: 'Roboto', sans-serif;
     }
     @include desktop {
     margin: 0;
-    font-size: 35px;
+    font-size: 34px;
     text-align: left;
     }
 }

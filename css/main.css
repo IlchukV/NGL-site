@@ -527,7 +527,7 @@ container {
 @media screen and (min-width: 1200px) {
   .hero__title {
     font-size: 45px;
-    padding-top: 114px;
+    padding-top: 100px;
     margin-bottom: 32px;
     max-width: 1200;
   }
@@ -591,7 +591,7 @@ container {
 @media screen and (min-width: 1200px) {
   .hero__pretitle {
     margin: 0;
-    font-size: 35px;
+    font-size: 34px;
     text-align: left;
   }
 }
@@ -1465,7 +1465,7 @@ container {
 }
 
 .details-restaurant__logo {
-  font-family: "Film P3", sans-serif;
+  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 40px;
@@ -1482,7 +1482,7 @@ container {
 }
 
 .details-restaurant__title {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -1497,7 +1497,7 @@ container {
 }
 
 .details-restaurant__text {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 12px;
   line-height: 1.25;
@@ -2693,17 +2693,17 @@ container {
   visibility: hidden;
 }
 
-.about-restaurant__container, .about-hotel__container {
+.about-restaurant__container {
   padding: 16px 26px;
   background-color: #494848;
 }
 @media screen and (min-width: 1200px) {
-  .about-restaurant__container, .about-hotel__container {
+  .about-restaurant__container {
     padding-bottom: 15px;
   }
 }
 
-.about-restaurant__subtitle, .about-hotel__subtitle {
+.about-restaurant__subtitle {
   font-family: "Roboto", serif;
   font-weight: 700;
   font-size: 24px;
@@ -2714,13 +2714,13 @@ container {
   margin-bottom: 12px;
 }
 @media screen and (min-width: 768px) {
-  .about-restaurant__subtitle, .about-hotel__subtitle {
+  .about-restaurant__subtitle {
     font-size: 32px;
     padding-top: 10px;
   }
 }
 
-.about-restaurant__logo, .about-hotel__logo {
+.about-restaurant__logo {
   font-family: "Roboto", serif;
   font-weight: 700;
   font-size: 40px;
@@ -2731,13 +2731,13 @@ container {
   margin-bottom: 12px;
 }
 @media screen and (min-width: 768px) {
-  .about-restaurant__logo, .about-hotel__logo {
+  .about-restaurant__logo {
     font-size: 64px;
     margin-bottom: 24px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .about-restaurant__logo, .about-hotel__logo {
+  .about-restaurant__logo {
     color: #c79002;
   }
 }
@@ -2918,82 +2918,4 @@ container {
 .slider-about__item {
   border-radius: 2px;
   overflow: hidden;
-}
-
-.about-hotel__subtitle {
-  text-align: right;
-}
-
-.about-hotel__logo {
-  text-align: right;
-}
-
-.info-card--mirrored:first-child .info-card__description {
-  margin-left: auto;
-  font-family: "Times New Roman", sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-}
-
-.info-card--mirrored:first-child .info-card__thumb {
-  margin-right: auto;
-  margin-left: 0;
-  width: 244px;
-}
-@media screen and (min-width: 768px) {
-  .info-card--mirrored:first-child .info-card__thumb {
-    position: absolute;
-    top: -32px;
-    left: 65px;
-    margin-left: 0;
-    width: 400px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .info-card--mirrored:first-child .info-card__thumb {
-    top: -33px;
-    left: 95px;
-    width: 460px;
-  }
-}
-
-.info-card--mirrored:nth-child(2n) {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.info-card--mirrored:nth-child(2n) .info-card__description {
-  margin-right: 20px;
-  margin-left: 0;
-}
-@media screen and (min-width: 768px) {
-  .info-card--mirrored:nth-child(2n) .info-card__description {
-    margin-right: 48px;
-    margin-left: 0;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .info-card--mirrored:nth-child(2n) .info-card__description {
-    margin-right: 32px;
-    margin-left: 0;
-  }
-}
-
-.info-card--mirrored:nth-child(2n+3) .info-card__description {
-  margin-left: 20px;
-  margin-right: 0;
-}
-@media screen and (min-width: 768px) {
-  .info-card--mirrored:nth-child(2n+3) .info-card__description {
-    margin-left: 48px;
-    margin-right: 0;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .info-card--mirrored:nth-child(2n+3) .info-card__description {
-    margin-left: 32px;
-    margin-right: 0;
-  }
 }/*# sourceMappingURL=main.css.map */
