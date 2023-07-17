@@ -85,13 +85,13 @@
 
     @include tablet {
         font-size: 14px;
-        padding: 43px 20px 0px 30px;
+        padding: 15px 15px 0px 15px;
         
         }
         
         @include desktop {
-        font-size: 15px;
-        padding: 23px 20px 0px 30px;
+        font-size: 13px;
+        padding: 15px 15px 0px 15px;
         }   
 }
 

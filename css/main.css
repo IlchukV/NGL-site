@@ -527,7 +527,7 @@ container {
 @media screen and (min-width: 1200px) {
   .hero__title {
     font-size: 45px;
-    padding-top: 124px;
+    padding-top: 114px;
     margin-bottom: 32px;
     max-width: 1200;
   }
@@ -557,7 +557,7 @@ container {
 }
 @media screen and (min-width: 1200px) {
   .hero__title2 {
-    font-size: 67px;
+    font-size: 45px;
     padding-top: 20px;
     margin-bottom: 32px;
     max-width: 1200;
@@ -565,7 +565,7 @@ container {
 }
 
 .hero__pretitle {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 500;
   line-height: 1.25;
   letter-spacing: 0.02em;
@@ -590,7 +590,7 @@ container {
 }
 @media screen and (min-width: 1200px) {
   .hero__pretitle {
-    margin-bottom: 56px;
+    margin: 0;
     font-size: 35px;
     text-align: left;
   }
@@ -1090,13 +1090,13 @@ container {
 @media screen and (min-width: 768px) {
   .portfolio__overlay {
     font-size: 14px;
-    padding: 43px 20px 0px 30px;
+    padding: 15px 15px 0px 15px;
   }
 }
 @media screen and (min-width: 1200px) {
   .portfolio__overlay {
-    font-size: 15px;
-    padding: 23px 20px 0px 30px;
+    font-size: 13px;
+    padding: 15px 15px 0px 15px;
   }
 }
 
