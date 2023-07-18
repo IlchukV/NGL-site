@@ -13,13 +13,11 @@
   overflow: hidden;
 }
 
-p,
 h1,
 h2,
 h3,
-h4,
-h5,
-h6 {
+p,
+ul {
   margin: 0;
 }
 
@@ -29,40 +27,38 @@ img {
   height: auto;
 }
 
+input,
+textarea {
+  outline: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 address {
   font-style: normal;
 }
 
-ul {
-  padding-left: 0;
-  margin: 0;
-  list-style: none;
+button {
+  font-family: inherit;
+  cursor: pointer;
 }
 
-a {
-  text-decoration: none;
-}
-
-table,
-tbody,
-caption,
-tfoot,
-thead,
-tr,
-th,
-td {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font-size: inherit;
-  vertical-align: baseline;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  border-spacing: 0;
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 container {
@@ -2559,7 +2555,7 @@ container {
   visibility: visible;
 }
 .preloader .hero__loader {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 31px;
   max-width: 1200;
@@ -2627,7 +2623,7 @@ container {
 }
 
 .about-restaurant__subtitle {
-  font-family: "Roboto", serif;
+  font-family: "Montserrat", serif;
   font-weight: 700;
   font-size: 24px;
   padding-top: 10px;
@@ -2644,7 +2640,7 @@ container {
 }
 
 .about-restaurant__logo {
-  font-family: "Roboto", serif;
+  font-family: "Montserrat", serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 1.08;
@@ -2703,7 +2699,7 @@ container {
 }
 
 .info-card__description {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 20px;
   color: #ffffff;
