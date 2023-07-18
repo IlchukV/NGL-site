@@ -488,6 +488,9 @@ container {
   line-height: 1.25;
   letter-spacing: 0.02em;
   text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   color: #ffffff;
   margin: 34px auto;
   margin-bottom: 56px;
@@ -501,7 +504,7 @@ container {
 @media screen and (min-width: 768px) {
   .hero__pretitle {
     width: 760px;
-    margin-top: 44px;
+    margin-top: 24px;
     margin-bottom: 56px;
     font-size: 26px;
     padding-left: 50px;
@@ -1010,7 +1013,7 @@ container {
 @media screen and (min-width: 768px) {
   .portfolio__overlay {
     font-size: 14px;
-    padding: 15px 15px 0px 15px;
+    padding: 13px 15px 0px 10px;
   }
 }
 @media screen and (min-width: 1200px) {
