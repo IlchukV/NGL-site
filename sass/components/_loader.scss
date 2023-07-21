@@ -39,7 +39,7 @@
         margin: 0 auto;
 
         @include tablet {
-            padding-top: 108px;
+            padding-top: 118px;
             margin-bottom: 16px;
             max-width: 600;
             font-size: 40px;
@@ -47,7 +47,7 @@
 
         @include desktop {
             // text-align: left;
-            font-size: 67px;
+            font-size: 45px;
             padding-top: 124px;
             margin-bottom: 32px;
             max-width: 1200;
