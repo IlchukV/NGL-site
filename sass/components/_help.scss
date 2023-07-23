@@ -45,6 +45,16 @@
     line-height: 1.14;
     text-transform: uppercase;
     color: $mainDarkColor;
+    width: 320px;
+    margin-left: auto;
+        margin-right: auto;
+
+    @include tablet {
+            width: 550px;
+               
+        }
+   
+    
 }
 
 .help-button {
