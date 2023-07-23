@@ -212,6 +212,17 @@ container {
         justify-content: space-around;
   }
 }
+.translate {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 19px;
+}
+.translate:hover, .translate:focus {
+  color: #c79002;
+}
+
 .contacts {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -377,19 +388,6 @@ container {
 }
 .logo__name:hover, .logo__name:focus, .navigation__tablet__list__link:hover, .navigation__tablet__list__link:focus {
   color: #ffffff;
-}
-
-.translate {
-  background: transparent;
-  border: none;
-  color: #ffffff;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 19px;
-}
-.translate:hover, .translate:focus {
-  color: #c79002;
 }
 
 .hero {
