@@ -30,32 +30,47 @@
         <a href="./index.html" class="logo link">
           <span class="logo__name">NGL </span></a>
       </div>
+  
+      <div class="header__nav">
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item"><a class="navigation__link lang" href="./index.html"
+                key="main">Главная</a>
+            </li>
+            <li class="navigation__item"><a class="navigation__link lang" href="./mission.html" key="mission">Миссия</a>
+            </li>
+            <li class="navigation__item"><a class="navigation__link navigation__link--current lang" href="./values.html" key="values">Ценности</a>
+            </li>
+            <li class="navigation__item"><a class="navigation__link lang" href="./aboutus.html" key="aboutus">О нас</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+  
       <button class="mobile-menu__button js-open-menu" aria-expanded="false" aria-controls="mobile-menu" type="button">
         <svg width="40" height="40" aria-label="Button">
           <use href="./images/icons3.svg#icon-mobile-menu"></use>
         </svg>
       </button>
-      <div class="header__nav">
-        <nav class="navigation">
-          <ul class="navigation__list">
-            <li class="navigation__item"><a class="navigation__link navigation__link" href="./index.html">Главная</a>
-            </li>
-            <li class="navigation__item"><a class="navigation__link navigation__link" href="./mission.html">Миссия</a>
-            </li>
-            <li class="navigation__item"><a class="navigation__link navigation__link--current"
-                href="./values.html">Ценности</a></li>
-            <li class="navigation__item"><a class="navigation__link" href="./aboutus.html">О нас</a></li>
-          </ul>
-        </nav>
+  
+      <div class="header__contacts">
+        <ul class="contacts">
+          <li class="header__leng-uk"><button id="en" class="translate"> <img src="./images/ukflag.png" alt="ruflag"
+                width="40px" height="30px"></button></li>
+  
+          <li class="header__leng-ru"><button id="ru" class="translate"> <img src="./images/ruflag.jpeg" alt="ruflag"
+                width="40px" height="30px"></button></li>
+        </ul>
       </div>
+  
     </div>
-
+  
   </header>
 
   <main>
       <section class="section">
         <div class=" about-restaurant__container">
-          <h1 class="hero__title">Ценности</h1>
+          <h1 class="hero__title  lang" key="values">Ценности</h1>
           <ul class="portfolio__list">
       
             <!-- 1 -->
@@ -72,12 +87,10 @@
                     <img class="portfolio__image" src="../images/cooperation.jpg" alt="Basketball" width="420"
                       height="294" loading="lazy">
                   </picture>
-                  <p class="portfolio__overlay">Создание рабочей среды, способствующая командной работе,
-                    обмену знаниями и межфункциональному сотрудничеству. Поощрение открытого общение,
-                    чтобы способствовать коллективному успеху</p>
+                  <p class="portfolio__overlay lang" key="collaborationtext">Создание рабочей среды, способствующая командной работе, обмену знаниями и межфункциональному сотрудничеству. Поощрение открытого общение, чтобы способствовать коллективному успеху</p>
                 </div>
                 <div class="portfolio__content">
-                  <h2 class="portfolio__name">Сотрудничество</h2>
+                  <h2 class="portfolio__name lang" key="collaboration">Сотрудничество</h2>
                   <!-- <p class="portfolio__text">Design</p> -->
                 </div>
               </a>
@@ -97,13 +110,10 @@
                     <img class="portfolio__image" src="../images/exelens3.jpg" alt="Basketball" width="420"
                       height="294" loading="lazy">
                   </picture>
-                  <p class="portfolio__overlay">Стремиться к совершенству, предоставляя исключительные
-                    услуги, инновационные решения
-                    и выдающиеся результаты нашим партнёрам. Устанавливаем высокие стандарты и постоянно
-                    улучшаем работу,чтобы превзойти ожидания клиентов</p>
+                  <p class="portfolio__overlay lang" key="superioritytext">Стремиться к совершенству, предоставляя исключительные услуги, инновационные решения и выдающиеся результаты нашим партнёрам. Устанавливаем высокие стандарты и постоянно улучшаем работу,чтобы превзойти ожидания клиентов</p>
                 </div>
                 <div class="portfolio__content">
-                  <h2 class="portfolio__name">Превосходство</h2>
+                  <h2 class="portfolio__name lang" key="superiority">Превосходство</h2>
                   <!-- <p class="portfolio__text">Design</p> -->
                 </div>
               </a>
@@ -123,12 +133,10 @@
                     <img class="portfolio__image" src="../images/innovate2.jpg " alt="Basketball" width="420"
                       height="294" loading="lazy">
                   </picture>
-                  <p class="portfolio__overlay">Внедрение культуры инноваций и постоянного
-                    совершенствования в предостовляемых услугах, процессах и бизнес-моделях, для
-                    опережения тенденций рынка и предложения передовых решений отрасли</p>
+                  <p class="portfolio__overlay lang" key="innovationstext">Внедрение культуры инноваций и постоянного совершенствования в предостовляемых услугах, процессах и бизнес-моделях, для опережения тенденций рынка и предложения передовых решений отрасли</p>
                 </div>
                 <div class="portfolio__content">
-                  <h2 class="portfolio__name">Инновации</h2>
+                  <h2 class="portfolio__name lang" key="innovations">Инновации</h2>
                 </div>
               </a>
             </li>
@@ -148,14 +156,10 @@
                     <img class="portfolio__image" src="../images/honesty2.jpg" alt="Basketball" width="420"
                       height="294" loading="lazy">
                   </picture>
-                  <p class="portfolio__overlay">Никакого компромиса с этическими нормами, прозрачностью и
-                    честностью ради денег.
-                    Сотрудники компании придерживаются твердых моральных принципов и строят
-                    доверительные отношения с клиентами,
-                    партнерами и заинтересованными сторонами</p>
+                  <p class="portfolio__overlay lang" key="fairnesstext">Никакого компромиса с этическими нормами, прозрачностью ичестностью ради денег. Сотрудники компании придерживаются твердых моральных принципов и строят доверительные отношения с клиентами,партнерами и заинтересованными сторонами</p>
                 </div>
                 <div class="portfolio__content">
-                  <h2 class="portfolio__name">Честность</h2>
+                  <h2 class="portfolio__name lang" key="fairness">Честность</h2>
       
                 </div>
               </a>
@@ -178,8 +182,8 @@
 
       </div>
       <div class="social-wrapper">
-        <p class="cta__title">Свяжитесь с нами</p>
-        <button type="button" class="  button-primary  js-open-modal" data-modal="1">
+        <p class="cta__title lang" key="callus">Свяжитесь с нами</p>
+        <button type="button" class="button-primary  js-open-modal lang" data-modal="1" key="freediagnbtn">
           Заказать диагностику Бизнеса
         </button>
       </div>
@@ -209,13 +213,16 @@
       </svg>
     </button>
     <ul class="mobile-menu-nav">
-      <li class="mobile-menu-nav__item"><a class="navigation__link navigation__link" href="./index.html">Главная</a>
+      <li class="mobile-menu-nav__item"><a class="navigation__link navigation__link lang" href="./index.html"
+          key="main">Главная</a>
       </li>
-      <li class="mobile-menu-nav__item"><a class="navigation__link navigation__link" href="./mission.html">Миссия</a>
+      <li class="mobile-menu-nav__item"><a class="navigation__link navigation__link lang" href="./mission.html"
+          key="mission">Миссия</a>
       </li>
-      <li class="mobile-menu-nav__item"><a class="navigation__link" href="./values.html">Ценности</a>
+      <li class="mobile-menu-nav__item"><a class="navigation__link lang" href="./values.html" key="values">Ценности</a>
       </li>
-      <li class="mobile-menu-nav__item"><a class="navigation__link" href="./aboutus.html">О нас</a></li>
+      <li class="mobile-menu-nav__item"><a class="navigation__link lang" href="./aboutus.html" key="aboutus">О нас</a>
+      </li>
     </ul>
     <ul class="mobile-menu-contact">
       <li class="mobile-menu-contact__item"><a class="mobile-menu-contact__email"
@@ -237,7 +244,7 @@
   
     </ul>
   </div>
-
+  
   <!-- MODAL WINDOW -->
   <div class="modal" data-modal="1">
     <div class="modal-wrapper">
@@ -246,11 +253,11 @@
           <use href="./images/icons.svg#icon-close_modal"></use>
         </svg>
       </button>
-
-      <h2 class="modal__title">Свяжитесь с нами удобным способом</h2>
+  
+      <h2 class="modal__title lang" key="modaltitle">Свяжитесь с нами удобным способом</h2>
       <div class="socials">
         <ul class="socials-modal">
-
+  
           <li class="socials__link"> <a href="https://wa.me/4915736251672" target="_blank"
               rel="nofollow noopener noreferrer"><svg class="soc__icon">
                 <use href="./images/symbol-defsSoc.svg#icon-whatsapp"></use>
@@ -267,7 +274,7 @@
               rel="nofollow noopener noreferrer"><svg class="soc__icon">
                 <use href="./images/symbol-defsSoc.svg#icon-gmail"></use>
               </svg></a></li>
-
+  
         </ul>
       </div>
     </div>
@@ -276,6 +283,7 @@
 
   <!-- Scripts -->
   <script type="module" src="./js/modal.js"></script>
+  <script src="./js/jquery.min.js"></script>
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
     integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
     crossorigin="anonymous"></script>

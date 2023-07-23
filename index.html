@@ -38,25 +38,37 @@
                 <a href="./index.html" class="logo link">
                     <span class="logo__name">NGL </span></a>
             </div>
+            
+            <div class="header__nav">
+                <nav class="navigation">
+                    <ul class="navigation__list">
+                        <li class="navigation__item"><a class="navigation__link navigation__link--current lang"
+                                href="./index.html" key="main" >Главная</a>
+                        </li>
+                        <li class="navigation__item"><a class="navigation__link lang" href="./mission.html" key="mission">Миссия</a>
+                        </li>
+                        <li class="navigation__item"><a class="navigation__link lang" href="./values.html" key = "values">Ценности</a>
+                        </li>
+                        <li class="navigation__item"><a class="navigation__link lang" href="./aboutus.html" key = "aboutus">О нас</a></li>
+                    </ul>
+                </nav>
+            </div>
+
             <button class="mobile-menu__button js-open-menu" aria-expanded="false" aria-controls="mobile-menu" type="button">
                 <svg width="40" height="40" aria-label="Button">
                     <use href="./images/icons3.svg#icon-mobile-menu"></use>
                 </svg>
             </button>
-            <div class="header__nav">
-                <nav class="navigation">
-                    <ul class="navigation__list">
-                        <li class="navigation__item"><a class="navigation__link navigation__link--current"
-                                href="./index.html">Главная</a>
-                        </li>
-                        <li class="navigation__item"><a class="navigation__link navigation__link" href="./mission.html">Миссия</a>
-                        </li>
-                        <li class="navigation__item"><a class="navigation__link" href="./values.html">Ценности</a>
-                        </li>
-                        <li class="navigation__item"><a class="navigation__link" href="./aboutus.html">О нас</a></li>
+
+                <div class="header__contacts">
+                    <ul class="contacts">
+                        <li class="header__leng-uk"><button id="en" class="translate"> <img src="./images/ukflag.png" alt="ruflag" width="40px"
+                                    height="30px"></button></li>
+
+                        <li class="header__leng-ru"><button id="ru" class="translate"> <img src="./images/ruflag.jpeg" alt="ruflag" width="40px" height="30px"></button></li>
                     </ul>
-                </nav>
-            </div>
+                </div>
+
         </div>
         
     </header>
@@ -65,13 +77,13 @@
 
         <!-- HERO -->
             <section class="hero">
-                <div class="container ">
+                <div class="container">
                     <h1 class="hero__title">Nova Generation Logistic</h1>
-                    <h2 class="hero__pretitle">Мы помогаем владельцам и ТОПам логистических компаний повысить прибыль,
+                    <h2 class="hero__pretitle lang" key = "tagline">Мы помогаем владельцам и ТОПам логистических компаний повысить прибыль,
                         капитализацию, эффективность транспортного бизнеса</h2>
                     
                     <div class="hero__buttons">
-                        <button type="button" class="hero__button button-primary js-open-modal" data-modal="1">
+                        <button type="button" class="hero__button button-primary js-open-modal lang" data-modal="1" key = "button1">
                             Назначить встречу с бизнес партнёром
                         </button>
                     </div>
@@ -84,43 +96,93 @@
         <!-- PAIN -->
             <section class="products" id="paints">
                 <div class="container">
-                    <h2 class="products__title">Если Вы</h2>
+                    <h2 class="products__title lang" key = "ifyou">Если Вы</h2>
                     <ul class="products__list list">
                         <li class="products__item">
-                            <h3 class="products__subtitle">Владелец бизнеса </h3>
-                            <p class="products__text_2">
+                            <h3 class="products__subtitle lang" key = "owner">Владелец бизнеса </h3>
+                            <p class="products__text_2 lang" key = "andyou">
                                 и у вас
                             </p>
-                            <p class="products__text">•  Невысокая капитализация бизнеса<br>
-                                •  Идет много времени на решение операционных вопросов<br>
-                                •  Не сплочённая управленческая команда<br>
-                            </p>
+                            <div>
+                                <ul>
+                                    <li>
+                                        <p class="products__text lang" key="ownerproblem1">• Невысокая капитализация бизнеса
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="products__text lang" key="ownerproblem2">
+                                            • Идет много времени на решение операционных вопросов
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="products__text lang" key="ownerproblem3">
+                                            • Не сплочённая управленческая команда
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
                             <a class="products__btn" href="#help"><svg class="products__icon icon" width="40" height="16">
                                     <use href="./images/symbol-defs3.svg#icon-rrow"></use>
                                 </svg></a>
                         </li>
                         <li class="products__item">
-                            <h3 class="products__subtitle">Операционный директор</h3>
-                            <p class="products__text_2">
+                            <h3 class="products__subtitle lang" key = "ceo">Операционный директор</h3>
+                            <p class="products__text_2 lang" key = "andyou">
                                 и у вас
                             </p>
-                            <p class="products__text">•  Низкие темпы роста бизнеса<br>
-                                •  Низкая рентабельность предприятия<br>
-                                •  Низкая вовлечённость персонала<br>
-                            </p>
+                                <div>
+                                    <ul>
+                                        <li>
+                                            <p class="products__text lang" key = "ceoproblem1">• Низкие темпы роста бизнеса
+                                            </p>
+                                        </li>
+                                
+                                        <li>
+                                            <p class="products__text lang" key = "ceoproblem2">
+                                                • Низкая рентабельность предприятия
+                                            </p>
+                                        </li>
+                                
+                                        <li>
+                                            <p class="products__text lang" key = "ceoproblem3">
+                                                • Низкая вовлечённость персонала
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+
                             <a class="products__btn" href="#help"><svg class="products__icon icon" width="40" height="16">
                                     <use href="./images/symbol-defs3.svg#icon-rrow"></use>
                                 </svg></a>
                         </li>
                         <li class="products__item">
-                            <h3 class="products__subtitle">Финансовый директор</h3>
-                            <p class="products__text_2">
+                            <h3 class="products__subtitle lang"  key = "cfo">Финансовый директор</h3>
+                            <p class="products__text_2" key = "andyou">
                                 и у вас
                             </p>
-                            <p class="products__text">•  Невысокие финансовые показатели<br>
-                                •  Высокие затраты на активы<br>
-                                •  Чрезмерные эксплуатационные и транспортные расходы<br>
-                            </p>
+
+                                <div>
+                                    <ul>
+                                        <li>
+                                            <p class="products__text lang" key = "cfoproblem1">• Невысокие финансовые показатели
+                                            </p>
+                                        </li>
+                                
+                                        <li>
+                                            <p class="products__text lang" key = "cfoproblem2">
+                                                • Высокие затраты на активы
+                                            </p>
+                                        </li>
+                                
+                                        <li>
+                                            <p class="products__text lang" key = "cfoproblem3">
+                                                • Чрезмерные эксплуатационные и транспортные расходы
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
                             <a class="products__btn" href="#help"><svg class="products__icon icon" width="40" height="16">
                                     <use href="./images/symbol-defs3.svg#icon-rrow"></use>
                                 </svg></a>
@@ -134,7 +196,7 @@
         <!-- HELP -->
             <section class="section features" id="help">
                 <div class="container">
-                    <h2 class="products__title">Мы помогаем</h2>
+                    <h2 class="products__title lang" key = "wehelp">Мы помогаем</h2>
                     <ul class="features__list">
             
                         <li class="features__item">
@@ -143,8 +205,7 @@
                                     <use href="./images/icons3.svg#icon-diagram"></use>
                                 </svg>
                             </div>
-                            <h3 class="features__subtitle">провести комплекс проектов по повышению операционной эффективности и
-                                росту прибыли</h3>
+                            <h3 class="features__subtitle lang"  key = "helpproject">провести комплекс проектов по повышению операционной эффективности и росту прибыли</h3>
                         
                         </li>
                         <li class="features__item">
@@ -153,7 +214,7 @@
                                     <use href="./images/icons3.svg#icon-astronaut"></use>
                                 </svg>
                             </div>
-                            <h3 class="features__subtitle">прокачать команду бизнеса и улучшить межфункциональную координацию</h3>
+                            <h3 class="features__subtitle lang" key = "helpcomand">прокачать команду бизнеса и улучшить межфункциональную координацию</h3>
                         
                         </li>
                     </ul>
@@ -161,8 +222,8 @@
             
                     <div class="help-button">
             
-                        <button type="button" class="hero__button button-primary  js-open-modal" data-modal="1">
-                            Заказать бесплатную консультацию!
+                        <button type="button" class="hero__button button-primary  js-open-modal lang" data-modal="1" key = "freeconsbtn">
+                            Заказать бесплатную консультацию
                         </button>
                     </div>
                 </div>
@@ -171,25 +232,25 @@
         <!-- Advantage-->
             <section class="advantages">
                 <div class="container">
-                    <h2 class="advantages__title products__title">Почему мы</h2>
+                    <h2 class="advantages__title products__title lang" key = "wywe">Почему мы</h2>
                     <ul class="advantages__list">
             
                         <li class="advantages__item list">
                             <span class="advantages__thumb-cow-icon"></span>
                             <h3 class="advantages__number">300+</h3>
-                            <p class="advantages__preTitle">Успешно реализованных проектов в логистике</p>
+                            <p class="advantages__preTitle lang" key = "wywe1">Успешно реализованных проектов в логистике</p>
                         </li>
             
                         <li class="advantages__item list">
                             <span class="advantages__thumb-weight-icon"></span>
                             <h3 class="advantages__number">100+</h3>
-                            <p class="advantages__preTitle">Эффектино проведённых обучений</p>
+                            <p class="advantages__preTitle lang" key = "wywe2">Эффектино проведённых обучений</p>
                         </li>
             
                         <li class="advantages__item list">
                             <span class="advantages__thumb-ice-icon"></span>
                             <h3 class="advantages__number">30+</h3>
-                            <p class="advantages__preTitle">Находится на поддержке наставников проектов</p>
+                            <p class="advantages__preTitle lang" key = "wywe3">Находится на поддержке наставников проектов</p>
                         </li>
                     </ul>
                 </div>
@@ -205,8 +266,8 @@
     
                 </div>
                 <div class="social-wrapper">
-                    <p class="cta__title">Свяжитесь с нами</p>
-                    <button type="button" class="  button-primary  js-open-modal" data-modal="1">
+                    <p class="cta__title lang" key = "callus">Свяжитесь с нами</p>
+                    <button type="button" class="button-primary  js-open-modal lang" data-modal="1" key = "freediagnbtn">
                         Заказать диагностику Бизнеса
                     </button>
                 </div>
@@ -236,13 +297,13 @@
             </svg>
         </button>
         <ul class="mobile-menu-nav">
-            <li class="mobile-menu-nav__item"><a class="navigation__link navigation__link" href="./index.html">Главная</a>
+            <li class="mobile-menu-nav__item"><a class="navigation__link navigation__link lang" href="./index.html" key="main">Главная</a>
             </li>
-            <li class="mobile-menu-nav__item"><a class="navigation__link navigation__link" href="./mission.html">Миссия</a>
+            <li class="mobile-menu-nav__item"><a class="navigation__link navigation__link lang" href="./mission.html" key="mission">Миссия</a>
             </li>
-            <li class="mobile-menu-nav__item"><a class="navigation__link" href="./values.html">Ценности</a>
+            <li class="mobile-menu-nav__item"><a class="navigation__link lang" href="./values.html" key = "values">Ценности</a>
             </li>
-            <li class="mobile-menu-nav__item"><a class="navigation__link" href="./aboutus.html">О нас</a></li>
+            <li class="mobile-menu-nav__item"><a class="navigation__link lang" href="./aboutus.html" key = "aboutus">О нас</a></li>
         </ul>
         <ul class="mobile-menu-contact">
             <li class="mobile-menu-contact__item"><a class="mobile-menu-contact__email"
@@ -274,7 +335,7 @@
                 </svg>
             </button>
     
-            <h2 class="modal__title">Свяжитесь с нами удобным способом</h2>
+            <h2 class="modal__title lang" key = "modaltitle" >Свяжитесь с нами удобным способом</h2>
             <div class="socials">
                 <ul class="socials-modal">
     
@@ -307,6 +368,7 @@
         integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
         crossorigin="anonymous"></script>
     <script src="./js/mobile-menu.js"></script>
+    <script src="./js/jquery.min.js"></script>
     <script type="module" src="./js/loader.js"></script>
 </body>
 
