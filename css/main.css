@@ -1610,8 +1610,6 @@ container {
   font-weight: 700;
   font-size: 36px;
   padding-top: 20px;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
 }
 
 .footer-autors {
@@ -2321,7 +2319,7 @@ container {
 @media screen and (min-width: 1200px) {
   .preloader .hero__loader {
     font-size: 45px;
-    padding-top: 124px;
+    padding-top: 150px;
     margin-bottom: 32px;
     max-width: 1200;
   }
