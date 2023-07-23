@@ -382,6 +382,14 @@ container {
 .translate {
   background: transparent;
   border: none;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+}
+.translate:hover, .translate:focus {
+  color: #c79002;
 }
 
 .hero {

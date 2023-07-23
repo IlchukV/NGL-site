@@ -27,6 +27,8 @@
     flex-direction: row;
     padding-top: 18px;
     padding-right: 20px;
+    // color: $mainLightColor;
+    // background-color: aqua;
 
   @include desktop {
     display: flex;
@@ -182,5 +184,14 @@
 .translate {
   background: transparent;
   border: none;
+  color: $mainLightColor;
+  font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
   // margin-left: 12px;
+    &:hover,
+    &:focus {
+      color: $secondaryAccentColor;
+    }
 }
